@@ -1,0 +1,75 @@
+
+===== MESSAGES TO LLM =====
+['multiply 5 and 6']
+
+===== LLM RESPONSE =====
+content='' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 75, 'total_tokens': 92, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UrPeKn1L7NuW4KZ0Lx7gb3E7Ort', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None} id='lc_run--019c52ea-738c-77a1-abfe-50ecddf896ed-0' tool_calls=[{'name': 'multiply', 'args': {'a': 5, 'b': 6}, 'id': 'call_FusDTB4nRWLoTFlKYtBef7en', 'type': 'tool_call'}] invalid_tool_calls=[] usage_metadata={'input_tokens': 75, 'output_tokens': 17, 'total_tokens': 92, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== TOOL CALLED =====
+multiply
+
+===== TOOL INPUT =====
+{'a': 5.0, 'b': 6.0}
+
+===== TOOL OUTPUT =====
+30.0
+
+===== MESSAGES TO LLM =====
+['multiply 5 and 6', '', '30.0']
+
+===== LLM RESPONSE =====
+content='The result of multiplying 5 and 6 is 30.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 14, 'prompt_tokens': 102, 'total_tokens': 116, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UrQXA5nroUTh8kDVaFdCf9TrCeC', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c52ea-78dc-7162-8e56-d18ad80917af-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 102, 'output_tokens': 14, 'total_tokens': 116, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+The result of multiplying 5 and 6 is 30.
+
+===== MESSAGES TO LLM =====
+['what is length of "hello" and mutiply length with 6']
+
+===== LLM RESPONSE =====
+content='' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 47, 'prompt_tokens': 84, 'total_tokens': 131, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UrurRb5QpVfes3jmwHgN7MZPszx', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None} id='lc_run--019c52ea-ec92-7f30-8e1d-698a6c0cfc3b-0' tool_calls=[{'name': 'string_length', 'args': {'text': 'hello'}, 'id': 'call_b8F2XfHpi5cH2lkv9HUTBwK0', 'type': 'tool_call'}, {'name': 'multiply', 'args': {'a': 5, 'b': 6}, 'id': 'call_24uN0lX0q1CJHFm8FVHurmgr', 'type': 'tool_call'}] invalid_tool_calls=[] usage_metadata={'input_tokens': 84, 'output_tokens': 47, 'total_tokens': 131, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL CALLED =====
+multiply
+
+===== TOOL INPUT =====
+{'text': 'hello'}
+
+===== TOOL INPUT =====
+{'a': 5.0, 'b': 6.0}
+
+===== TOOL OUTPUT =====
+5
+
+===== TOOL OUTPUT =====
+30.0
+
+===== MESSAGES TO LLM =====
+['what is length of "hello" and mutiply length with 6', '', '5', '30.0']
+
+===== LLM RESPONSE =====
+content='The length of the string "hello" is 5, and when you multiply that length by 6, the result is 30.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 29, 'prompt_tokens': 149, 'total_tokens': 178, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UrwpJtACFeETKE99aiwKx6BjafM', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c52ea-f4d0-77e0-a142-d9a471407893-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 149, 'output_tokens': 29, 'total_tokens': 178, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+The length of the string "hello" is 5, and when you multiply that length by 6, the result is 30.
+
+===== MESSAGES TO LLM =====
+['what is my previous question']
+
+===== LLM RESPONSE =====
+content="I'm unable to access previous interactions or questions. However, if you provide me with context or details about your previous question, I'll do my best to assist you!" additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 33, 'prompt_tokens': 74, 'total_tokens': 107, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UsRDz0qUllpRsA49IDl2grhgPrB', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c52eb-6e11-7d62-9e92-acf6bdeac405-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 74, 'output_tokens': 33, 'total_tokens': 107, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+I'm unable to access previous interactions or questions. However, if you provide me with context or details about your previous question, I'll do my best to assist you!
+
+===== MESSAGES TO LLM =====
+['hi']
+
+===== LLM RESPONSE =====
+content='Hello! How can I assist you today?' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 70, 'total_tokens': 80, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8UsgCJtxfs2d6wXv3CSbfjKSPlAq', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c52eb-a832-7703-b8f0-dacea2e0bb31-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 70, 'output_tokens': 10, 'total_tokens': 80, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+Hello! How can I assist you today?
