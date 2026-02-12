@@ -1,0 +1,18 @@
+
+===== USER QUESTION =====
+what is 345 * 873?
+
+===== MODEL RAW RESPONSE =====
+ChatCompletionMessage(content=None, refusal=None, role='assistant', annotations=[], audio=None, function_call=None, tool_calls=[ChatCompletionMessageFunctionToolCall(id='call_U018PTgfHu3nKSTlfnrZYzYK', function=Function(arguments='{"a":345,"b":873}', name='multiply'), type='function')])
+
+===== TOOL SELECTED =====
+multiply
+
+===== TOOL ARGUMENTS =====
+{'a': 345, 'b': 873}
+
+===== TOOL RESULT =====
+301185
+
+===== FINAL ANSWER =====
+The product of 345 and 873 is 301,185.
