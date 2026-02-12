@@ -1,0 +1,51 @@
+
+===== MESSAGES TO LLM =====
+['what is length of "hello"']
+
+===== LLM RESPONSE =====
+content='' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 14, 'prompt_tokens': 76, 'total_tokens': 90, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8VVrDL7cP02nZjCg8RFJrskk6yev', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None} id='lc_run--019c5310-b68f-7720-a35c-ba86f1823194-0' tool_calls=[{'name': 'string_length', 'args': {'text': 'hello'}, 'id': 'call_vjG1ts0GaeBBmIXdk8YtfGp4', 'type': 'tool_call'}] invalid_tool_calls=[] usage_metadata={'input_tokens': 76, 'output_tokens': 14, 'total_tokens': 90, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'hello'}
+
+===== TOOL OUTPUT =====
+5
+
+===== MESSAGES TO LLM =====
+['what is length of "hello"', '', '5']
+
+===== LLM RESPONSE =====
+content='The length of "hello" is 5 characters.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 12, 'prompt_tokens': 99, 'total_tokens': 111, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8VVscjcKefjnSBSOCYoebDzpefDR', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c5310-bd69-7421-a62a-7df4ce528767-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 99, 'output_tokens': 12, 'total_tokens': 111, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+The length of "hello" is 5 characters.
+
+===== MESSAGES TO LLM =====
+['what is length of "hello"', '', '5', 'The length of "hello" is 5 characters.', 'what string i have given you']
+
+===== LLM RESPONSE =====
+content='You provided the string "hello".' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 8, 'prompt_tokens': 124, 'total_tokens': 132, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8VWBDmEjHzbZaiu838PawIgggiTh', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c5311-05e9-76a1-a531-0cd76037ab2c-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 124, 'output_tokens': 8, 'total_tokens': 132, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+You provided the string "hello".
+
+===== MESSAGES TO LLM =====
+['what is length of "hello"', '', '5', 'The length of "hello" is 5 characters.', 'what string i have given you', 'You provided the string "hello".', "hi'"]
+
+===== LLM RESPONSE =====
+content='Hello! How can I assist you today?' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 10, 'prompt_tokens': 141, 'total_tokens': 151, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8VWNV9wlOvBbmESVXZBtFQ7TWBO4', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c5311-3681-7d91-99b1-cece029e8654-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 141, 'output_tokens': 10, 'total_tokens': 151, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+Hello! How can I assist you today?
+
+===== MESSAGES TO LLM =====
+['what is length of "hello"', '', '5', 'The length of "hello" is 5 characters.', 'what string i have given you', 'You provided the string "hello".', "hi'", 'Hello! How can I assist you today?', 'exit']
+
+===== LLM RESPONSE =====
+content='Goodbye! If you have more questions in the future, feel free to ask.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 18, 'prompt_tokens': 159, 'total_tokens': 177, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_provider': 'openai', 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_f4ae844694', 'id': 'chatcmpl-D8VWSzm9awpmNIQmaKD0he58jqT0t', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='lc_run--019c5311-4801-74f0-829d-da5a065c9e7d-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 159, 'output_tokens': 18, 'total_tokens': 177, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+
+===== FINAL ANSWER =====
+Goodbye! If you have more questions in the future, feel free to ask.
