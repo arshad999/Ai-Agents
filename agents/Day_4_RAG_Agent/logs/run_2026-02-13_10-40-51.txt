@@ -1,0 +1,18 @@
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'hello'}
+
+===== TOOL OUTPUT =====
+5
+
+===== TOOL CALLED =====
+multiply
+
+===== TOOL INPUT =====
+{'a': 5.0, 'b': 10.0}
+
+===== TOOL OUTPUT =====
+50.0

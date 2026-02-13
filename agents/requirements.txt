@@ -5,3 +5,7 @@ python-dotenv
 tiktoken
 ipykernel
 pydantic 
+
+faiss-cpu 
+langchain-community 
+tiktoken
