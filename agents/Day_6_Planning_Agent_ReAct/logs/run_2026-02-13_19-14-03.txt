@@ -1,0 +1,36 @@
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'hello world'}
+
+===== TOOL OUTPUT =====
+11
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'thanks'}
+
+===== TOOL OUTPUT =====
+6
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'thanks'}
+
+===== TOOL OUTPUT =====
+6
+
+===== TOOL CALLED =====
+multiply
+
+===== TOOL INPUT =====
+{'a': 6.0, 'b': 1.0}
+
+===== TOOL OUTPUT =====
+6.0

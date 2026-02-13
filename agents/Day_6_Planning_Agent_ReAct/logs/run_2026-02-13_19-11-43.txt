@@ -1,0 +1,9 @@
+
+===== TOOL CALLED =====
+string_length
+
+===== TOOL INPUT =====
+{'text': 'hello world'}
+
+===== TOOL OUTPUT =====
+11
